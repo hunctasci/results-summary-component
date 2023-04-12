@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/2b2de68ead.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      id="result"
+      class="flex flex-col items-center justify-around bg-blue-600 h-96 space-around border rounded-b-3xl"
+    >
+      <h4 class="text-neutral-200 font-medium">Your Result</h4>
+      <div
+        class="flex flex-col items-center space-y-2 bg-blue-800 p-8 rounded-full"
+      >
+        <p class="text-6xl text-neutral-200">76</p>
+        <p class="text-neutral-400">of 100</p>
+      </div>
+
+      <div class="text-center mx-28 space-y-2 pb-2">
+        <h3 class="text-3xl text-neutral-100 font-medium">Great</h3>
+        <p class="text-neutral-300">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+    <div class="m-7 font-medium text-xl">
+      <h2>Summary</h2>
+    </div>
+    <div class="flex justify-between bg-red-100 py-4 px-4 m-6 rounded-md">
+      <div class="">
+        <p class="text-red-700">Reaction</p>
+      </div>
+      <p>
+        <span class="font-medium">80</span>
+        <span class="text-slate-600">/ 100</span>
+      </p>
+    </div>
+    <div class="flex justify-between bg-yellow-100 py-4 px-4 m-6 rounded-md">
+      <div>
+        <i></i>
+        <p class="text-yellow-700">Memory</p>
+      </div>
+      <p>92 / 100</p>
+    </div>
+    <div class="flex justify-between bg-green-100 py-4 px-4 m-6 rounded-md">
+      <div>
+        <i></i>
+        <p class="text-green-700">Verbal</p>
+      </div>
+      <p>61 / 100</p>
+    </div>
+    <div class="flex justify-between bg-purple-100 py-4 px-4 m-6 rounded-md">
+      <div>
+        <i></i>
+        <p class="text-purple-700">Visual</p>
+      </div>
+      <p>72 / 100</p>
+    </div>
+    <div class="flex justify-center">
+      <button
+        class="bg-blue-500 hover:bg-blue-100 text-white font-bold py-4 w-full mx-6 rounded-full"
+      >
+        Continue
+      </button>
+    </div>
+  </body>
+</html>
